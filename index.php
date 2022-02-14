@@ -14,5 +14,6 @@ $testo = 'Ricordate del passato solo ciò che vi fa piacere.'
 </head>
 <body>
     <p> <?php echo $testo ?> </p>
+    <p>Jane Austen</p>
 </body>
 </html>
