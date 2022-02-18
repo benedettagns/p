@@ -1,6 +1,8 @@
 <?php
 
 $testo = 'Ricordate del passato solo ciò che vi fa piacere.';
+$nascosta = $_GET['nascosta'];
+$testoNascosto = str_replace($nascosta, '***', $testo);
 
 ?>
 
