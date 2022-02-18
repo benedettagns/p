@@ -20,5 +20,9 @@ $testoNascosto = str_replace($nascosta, '***', $testo);
     <p>Jane Austen</p>
     <p> Conteggio: <?php echo strlen($testo); ?> </p>
 
+    <hr>
+    <h1>Testo con censura</h1>
+    <p> <?php echo $testoNascosto ?></p>
+
 </body>
 </html>
