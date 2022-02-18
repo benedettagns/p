@@ -1,6 +1,6 @@
 <?php
 
-$testo = 'Ricordate del passato solo ciò che vi fa piacere.'
+$testo = 'Ricordate del passato solo ciò che vi fa piacere.';
 
 ?>
 
@@ -13,7 +13,10 @@ $testo = 'Ricordate del passato solo ciò che vi fa piacere.'
     <title>Document</title>
 </head>
 <body>
-    <p> <?php echo $testo ?> </p>
+
+    <p> <?php echo $testo;?> </p>
     <p>Jane Austen</p>
+    <p> Conteggio: <?php echo strlen($testo); ?> </p>
+
 </body>
 </html>
